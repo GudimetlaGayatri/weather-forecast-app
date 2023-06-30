@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://images.pexels.com/photos/449011/pexels-photo-449011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width:auto;
+    height: auto;
+    background-color: #ffffffa2;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    padding: 70px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#currentWeather {
+    margin-top: 20px;
+    
+}
+
+#forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forecast-item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 15px 15px 50px black;
+    margin-bottom: 80px;
+}
